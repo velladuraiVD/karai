@@ -3,9 +3,37 @@
 @tailwind utilities;
 
 h1,
+p,
 h2,
 h3,
 h4,
 h5,
 h6{font-size: inherit;
-font-weight: inherit;}
+font-weight: inherit;
+font-family: Arial, Helvetica, sans-serif ;
+color: #DDE6ED;
+}
+
+button{
+    background-color: transparent;
+    border: solid #D8B08C 1px;
+    color: #D8B08C ;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    display: inline-block;
+  
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 #D8B08C inset, 0 0 10px 1px #D8B08C;
+    border: 1px solid #D8B08C;
+  }
+  
+
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 2000px;
+}
