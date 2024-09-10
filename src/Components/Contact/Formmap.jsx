@@ -7,15 +7,15 @@ export default function Formmap() {
             <form action="">
                 <div className='mt-4 '>
                     <label for="email" className='block mb-2 text-xl font-bold text-[#FFFFFF] '>Your Email</label>
-                    <input type='email' id='email' placeholder='name@flowbite.com' className=' p-2  bg-gray-50 border-2 focus:outline-none text-lg font-semibold rounded-lg w-[400px]  md:w-[700px] h-[40px]'></input>
+                    <input type='email' id='email' placeholder='name@flowbite.com' className=' p-2  bg-gray-50 border-2 focus:outline-none text-lg font-semibold rounded-lg w-[330px]  md:w-[700px] h-[40px]'></input>
                 </div>
                 <div className='mt-4'>
                 <label for="subject" className='block mb-2 text-xl font-bold text-[#FFFFFF]'>Subject</label>
-                <input type='message' id='email' placeholder='Let us know hoe we can help you '  className=' p-2 shadow-sm bg-gray-50 border  border-gray-300 focus:outline-none text-lg font-semibold rounded-lg w-[400px] md:w-[700px] h-[40px] '></input>
+                <input type='message' id='email' placeholder='Let us know hoe we can help you '  className=' p-2 shadow-sm bg-gray-50 border  border-gray-300 focus:outline-none text-lg font-semibold rounded-lg w-[330px] md:w-[700px] h-[40px] '></input>
                 </div>
                 <div className='mt-4'>
                 <label for="message" className='block mb-2 text-xl font-bold text-[#FFFFFF]'>Your Message</label>
-                <textarea id='mesage' rows="4" placeholder='Leave a comment....' className=' p-2 shadow-sm bg-gray-50 border border-gray-300 focus:outline-none text-lg font-semibold rounded-lg w-[400px] md:w-full'></textarea>
+                <textarea id='mesage' rows="4" placeholder='Leave a comment....' className=' p-2 shadow-sm bg-gray-50 border border-gray-300 focus:outline-none text-lg font-semibold rounded-lg w-[330px] md:w-full'></textarea>
                 </div>
             </form>
 
